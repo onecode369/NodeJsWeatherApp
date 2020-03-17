@@ -35,7 +35,7 @@ form.addEventListener("submit", e => {
           locationOutput.textContent = data.address;
           temperatureOutput.textContent = "Temperature : " + data.temperature;
           precipitationChanceOutput.textContent =
-            "Rain Chance : " + (data.precipitation * 100).toString() + "%";
+            "Humidity : " + (data.precipitation * 100).toString() + "%";
           forecastOutput.textContent = "Forecast : " + data.weatherForecast;
         }
       });
