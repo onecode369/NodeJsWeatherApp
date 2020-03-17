@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="/images/weather.png">
+    <title>Cloudy &mdash; Checkout weather forecast</title>
+</head>
+
+<body>
+    {{>header}}
+
+    <div class="container" style="min-height: 60vh;min-width: 100vw;margin-bottom:30px">
+        <div class="search_text">
+            Search your Location
+        </div>
+        <form>
+            <div class="input-group col-lg-7 col-md-9 col-sm-11" style="margin:  20px auto 20px auto;">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        Place
+                    </div>
+                </div>
+                <input type="text" class="form-control" id="weather-location-input" placeholder="Search here ...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+        <div id="loader" style="margin: 40px auto;text-align-last:center;display:none">
+            <div class="spinner-border text-info"></div>
+        </div>
+        <div class="alert alert-danger col-lg-6 col-md-8 col-sm-10" style="margin: 10px auto;display:none"
+            id="errorOutput"></div>
+        <div style="text-align-last:center">
+            <img id="icon" src="" alt="icon" style="margin:auto;display: none;width:200px">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-10 display-4" style="margin: 10px auto;" id="locationOutput"></div>
+        <div class="col-lg-6 col-md-8 col-sm-10" style="margin: 10px auto;" id="temperatureOutput"></div>
+        <div class="col-lg-6 col-md-8 col-sm-10" style="margin: 10px auto;" id="precipitationChanceOutput"></div>
+        <div class="col-lg-6 col-md-8 col-sm-10" style="margin: 10px auto; 30px auto" id="forecastOutput"></div>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

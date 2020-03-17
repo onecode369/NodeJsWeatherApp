@@ -1,0 +1,50 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white !important;
+}
+
+.navbar-links {
+  margin: auto;
+  text-align: center;
+}
+
+.nav-item {
+  border-bottom: 2px solid skyblue;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid white;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.search_text {
+  text-align-last: center;
+  text-align: center;
+  font-size: 30px;
+  margin: 15px 0px;
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 0 !important;
+  background-color: skyblue;
+  color: #fff;
+  font-size: 35px;
+  text-align-last: center;
+  text-align: center;
+}

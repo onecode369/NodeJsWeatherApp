@@ -1,0 +1,24 @@
+{
+  "name": "nodejsweatherapp",
+  "version": "1.0.0",
+  "description": "Weather App made in Node Js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onecode369/NodeJsWeatherApp.git"
+  },
+  "author": "onecode369",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onecode369/NodeJsWeatherApp/issues"
+  },
+  "homepage": "https://github.com/onecode369/NodeJsWeatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "request": "^2.88.2"
+  }
+}
